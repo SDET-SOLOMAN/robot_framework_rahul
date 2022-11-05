@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 6.0.1 (Python 3.11.0 on darwin)" generated="20221104 19:40:09.582" rpa="false" schemaversion="3">
+<suite id="s1" name="Test1 Demo" source="/Users/mikesoloman/Desktop/robot_framework_rahul/tests/test1_demo.robot">
+<test id="s1-t1" name="Validate Succesful Login" line="8">
+<kw name="Open the browser with the Mortgage payemnt url">
+<kw name="Create Webdriver" library="SeleniumLibrary">
+<arg>Chrome</arg>
+<arg>executable_path = /Users/mikesoloman/Desktop/chromedriver</arg>
+<doc>Creates an instance of Selenium WebDriver.</doc>
+<msg timestamp="20221104 19:40:09.854" level="INFO">Creating an instance of the Chrome WebDriver.</msg>
+<msg timestamp="20221104 19:40:09.854" level="INFO">Cannot capture screenshot because no browser is open.</msg>
+<msg timestamp="20221104 19:40:09.854" level="FAIL">TypeError: WebDriver.__init__() got an unexpected keyword argument 'executable_path '</msg>
+<status status="FAIL" starttime="20221104 19:40:09.854" endtime="20221104 19:40:09.856"/>
+</kw>
+<kw name="Go To" library="SeleniumLibrary">
+<arg>https://rahulshettyacademy.com/loginpagePractise/</arg>
+<doc>Navigates the current browser window to the provided ``url``.</doc>
+<status status="NOT RUN" starttime="20221104 19:40:09.856" endtime="20221104 19:40:09.856"/>
+</kw>
+<status status="FAIL" starttime="20221104 19:40:09.853" endtime="20221104 19:40:09.856"/>
+</kw>
+<status status="FAIL" starttime="20221104 19:40:09.853" endtime="20221104 19:40:09.856">TypeError: WebDriver.__init__() got an unexpected keyword argument 'executable_path '</status>
+</test>
+<doc>To validate the Login Form</doc>
+<status status="FAIL" starttime="20221104 19:40:09.583" endtime="20221104 19:40:09.857"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="0" fail="1" skip="0" id="s1" name="Test1 Demo">Test1 Demo</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
